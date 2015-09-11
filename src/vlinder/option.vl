@@ -1,4 +1,4 @@
-union Option[T: *] {
+union T[T: *] {
     Some(value: T)
     None
 }
